@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="/css/owl/owl.carousel.css">
+  <link rel="stylesheet" href="/css/owl/owl.theme.default.min.css">
+  
+    <title>Clone Netflix</title>
+</head>
+    
+
+<body>
+    <div class="home">
+    <header>
+       <div class="container" id="container">
+           
+        <nav id="cabecalho">
+            <a  class="logo" href="https://www.netflix.com/browse">NETFLIX</a>
+            <a href="https://www.netflix.com/browse">Inicio</a>
+            <a href="https://www.netflix.com/browse/genre/83">Séries</a>
+            <a href="https://www.netflix.com/browse/genre/34399">Filmes</a>
+            <a href="https://www.netflix.com/latest">Bombando</a>
+            <a href="https://www.netflix.com/browse/my-list">Minha Lista</a>
+            <a id="pesquisa" href="#"><i class="fas fa-search"></i></a>
+            <a id="infantil" href="https://www.netflix.com/Kids">Infantil</a>
+            <a id="sininho" href="#"><i class="far fa-bell"></i></a>
+            <a id="usuarios" name="usuarios" href="#"><img id="foto-ususario" src="imagens/usuario.png" alt="foto-usuario"></a>
+           
+            <div class="dropdown">            
+                <button onclick="myFunction()" class="dropbtn"> </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#"><img id="foto-ususario" src="imagens/usuario.png" alt="foto-usuario"> Luiz</a>
+                  <a href="#">Gerenciar perfis</a>
+                  <a href="#">Conta</a>
+                  <p class="linha"></p>
+                  <a href="#">Centro de ajuda</a>
+                  <a href="#">Sair da Netflix</a>
+                </div>
+              </div>
+        </nav>
+       </div> 
+    </header>
+    <main>
+        <div class="filmePrincipal">
+            <div class="container">
+                <h3 class="titulo">Breaking Bad</h3>
+                <p class="sinopse">O drama "Breaking Bad" narra a história de Walter White, um humilde professor de química que vê sua vida se transformar quando descobre ser portador de um câncer terminal. Com um passado brilhante como pesquisador, Walter amarga agora uma terrível situação financeira trabalhando como professor em uma escola de ensino médio.</p>
+                <button role="button" class="botaoAssistir" onclick="location.href='https://www.netflix.com/watch/70196252?trackId=255824129&tctx=0%2C0%2CNAPA%40%40%7Cf7eda1d2-0caa-4bbb-956b-dd23b9d60e90-132322446_titles%2F1%2F%2Fbreaking%2F0%2F0%2CNAPA%40%40%7Cf7eda1d2-0caa-4bbb-956b-dd23b9d60e90-132322446_titles%2F1%2F%2Fbreaking%2F0%2F0%2Cunknown%2C%2Cf7eda1d2-0caa-4bbb-956b-dd23b9d60e90-132322446%7C2%2C'"><i class="fas fa-play"></i>  ASSISTIR</button>
+                <button role="button" class="botaoInfo"><i class="fas fa-info-circle"></i>   MAIS INFORMAÇÕES</button>
+            </div>
+        </div>
+    </main>
+    <div class="carrosselFilmes">
+        <h4>Continuar assistindo como Luiz</h4>
+        <div class="owl-carousel owl-theme" id="carrosel">
+            <div class="item" id="box-carrosel"><img box-filme src="/imagens/filme1.jpg" alt="filme1"></div>
+            <div class="item"><img box-filme src="/imagens/filme2.jpg" alt="filme2"></div>
+            <div class="item"><img box-filme src="/imagens/filme3.jpg" alt="filme3"></div>
+            <div class="item"><img box-filme src="/imagens/filme4.jpg" alt="filme4"></div>
+            <div class="item"><img box-filme src="/imagens/filme5.jpg" alt="filme5"></div>
+            <div class="item"><img box-filme src="/imagens/filme6.jpg" alt="filme6"></div>
+            <div class="item"><img box-filme src="/imagens/filme7.jpg" alt="filme7"></div>
+            <div class="item"><img box-filme src="/imagens/filme8.jpg" alt="filme8"></div>
+            <div class="item"><img box-filme src="/imagens/filme9.jpg" alt="filme9"></div>
+            <div class="item"><img box-filme src="/imagens/filme10.jpg" alt="filme10"></div>
+        </div>
+    </div>
+</div>
+</body>
+<footer>
+    <div class="redesSociais">
+        <a href="https://www.facebook.com/netflixbrasil"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/NetflixBrasil"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/NetflixBrasil"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/user/NetflixBRA"><i class="fab fa-youtube"></i></a>
+    </div>
+    <ul class="listaLinksRodape">
+        <li class="linksRodape"><a class="linksRodape" href="/browse/subtitles"><span class="conteudo-linksRodape">Idioma e legendas</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="/browse/audio-description"><span class="conteudo-linksRodape">Audiodescrição</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="https://help.netflix.com/"><span class="conteudo-linksRodape">Centro de ajuda</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="/redeem"><span class="conteudo-linksRodape">Cartão pré-pago</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="https://media.netflix.com/"><span class="conteudo-linksRodape">Imprensa</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="http://ir.netflix.com/"><span class="conteudo-linksRodape">Relações com investidores</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="https://jobs.netflix.com/"><span class="conteudo-linksRodape">Carreiras</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="https://help.netflix.com/legal/termsofuse"><span class="conteudo-linksRodape">Termos de uso</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="https://help.netflix.com/legal/privacy"><span class="conteudo-linksRodape">Privacidade</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="https://help.netflix.com/legal/notices"><span class="conteudo-linksRodape">Avisos legais</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="/Cookies"><span class="conteudo-linksRodape">Preferências de cookies</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="https://help.netflix.com/legal/corpinfo"><span class="conteudo-linksRodape">Informações corporativas</span></a></li>
+        <li class="linksRodape"><a class="linksRodape" href="https://help.netflix.com/contactus"><span class="conteudo-linksRodape">Entre em contato</span></a></li>
+    </ul>
+    <button class="codigoServico">Código de Seviço</button>
+    <span class="rodape">© Luiz Rubioli - Projeto: Clone Netflix 25/01/2022</span>
+    </footer>
+    <script  type="text/javascript" src="/js/owl/jquery.min.js"></script>
+  <script  type="text/javascript" src="/js/owl/owl.carousel.min.js"></script>
+  <script  type="text/javascript" src="/js/main.js"></script>
+</html>
