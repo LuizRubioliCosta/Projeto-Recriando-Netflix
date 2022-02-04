@@ -36,6 +36,7 @@ function myFunction() {
       }
     }
   }
+ 
 
 /*
   window.onclick = function(event) {
